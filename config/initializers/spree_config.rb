@@ -1,0 +1,1 @@
+Spree::Config.set(logo: "logo1.png")
