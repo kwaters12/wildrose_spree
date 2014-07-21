@@ -3,12 +3,14 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use Postgresql as the database for Active Record
+gem 'pg'
 
 gem 'spree', github: 'spree/spree', branch: '2-3-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
+
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
